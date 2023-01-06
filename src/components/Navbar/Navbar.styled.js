@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
-  padding: 20px;
-  position: fixed;
+  padding: 15px;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: ${({theme}) => theme.colors.secondary};

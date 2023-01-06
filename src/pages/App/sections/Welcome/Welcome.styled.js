@@ -9,11 +9,11 @@ export const Container = styled.section`
   padding: 20px;
   width: min(1200px, 100%);
   min-height: calc(100vh - 70px);
+  height: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   color: ${({theme}) => theme.colors.secondary};
-  overflow: hidden;
 `;
 
 export const Presentation = styled.div`
