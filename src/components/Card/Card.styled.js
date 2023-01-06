@@ -15,6 +15,7 @@ export const Container = styled.div`
       max-height: 100%;
     }
   }
+  padding: 50px 0;
 `;
 
 export const Img = styled.img`

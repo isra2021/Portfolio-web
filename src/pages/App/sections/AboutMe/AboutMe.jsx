@@ -5,19 +5,14 @@ const AboutMe = () => {
     <Container id='about'>
       <Image src='/eliot2webp 2.png' alt='eliot' />
       <About>
-        <Section>ABOUT ME.</Section>
+        <Section>SOBRE MI.</Section>
         <Text>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, ex
-          tempora assumenda facere labore, impedit omnis natus quasi ipsa
-          ratione est. Assumenda temporibus odio sequi iusto itaque, quam
-          obcaecati voluptatibus molestiae, porro quos unde. Debitis maiores
-          earum odio in omnis? Ab qui sunt amet explicabo atque saepe, ut velit
-          tempore possimus repellendus sed vitae dignissimos adipisci veniam
-          doloribus et nemo quae a sint optio voluptate, nisi dolore ullam unde!
-          Ab sequi iure, inventore quae quaerat enim deleniti saepe mollitia
-          nihil ullam soluta consequuntur consequatur magni harum quis delectus
-          provident iusto placeat voluptas in nemo impedit! Magnam consequuntur
-          similique aspernatur illum?
+          Mi nombre es Israel, tengo 24 anios, soy Argentino, estudio la carrera
+          Ciencias de la Computacion en UNC-FAMAF, donde aprendi las bases de la
+          programacion. Soy un apasionado por la investigacion, busco
+          constantemente estar al dia en el mundo de la Tecnologia. Lo que mas
+          me gusta del area de la tecnologia es el trabajo en equipo, conocer
+          nuevas personas y aprender de ellas.
         </Text>
       </About>
     </Container>

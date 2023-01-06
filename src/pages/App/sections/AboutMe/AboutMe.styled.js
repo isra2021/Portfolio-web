@@ -18,6 +18,7 @@ export const About = styled.div`
   flex-direction: column;
   align-items: flex-start;
   position: relative;
+  margin-bottom: auto;
   z-index: 3;
   @media screen and (max-width: 800px) {
     margin-left: auto;

@@ -23,19 +23,23 @@ const Card = ({
         </Text>
         <Text>
           <span>Repositorio Backend: </span>
-          <a href={backend} target='_blank'>
-            {backend}
-          </a>
+          {backend !== "No disponible" && (
+            <a href={backend} target='_blank'>
+              {backend}
+            </a>
+          )}
+          {backend === "No disponible" && backend}
         </Text>
         <Text>
           <span>Repositorio Frontend: </span>
+
           <a href={frontend} target='_blank'>
             {frontend}
           </a>
         </Text>
 
         <Text>
-          <span>Tecnologias:</span> {technologies}
+          <span>Tecnologias:</span> {technologies}.
         </Text>
         <Text>
           <span>Sobre el proyecto:</span> {description}

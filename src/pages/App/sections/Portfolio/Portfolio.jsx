@@ -44,6 +44,41 @@ const Portfolio = () => {
         Lista de partidas: Muestra las partidas a las cuales puedo unirme con la posibilidad de hacer un filtrado de partidas.
         `,
     },
+    {
+      imgs: ["/vaya.PNG", "/vaya2.PNG", "/vaya3.PNG"],
+      name: "Vaya App",
+      backend: "No disponible",
+      frontend: "https://gitlab.com/israelangulo2021/vaya-app.git",
+      deploy: "https://vayaapp.netlify.app",
+      technologies: "HTML, CSS, JS, React JS",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quidem assumenda facilis id nihil iure error earum non harum vel!`,
+    },
+
+    {
+      imgs: [
+        "/ecoff.PNG",
+        "/ecoff2.PNG",
+        "/ecoff3.PNG",
+        "/ecoff4.PNG",
+        "/ecoff5.PNG",
+      ],
+      name: "Ecoff",
+      backend: "No disponible",
+      frontend: "https://gitlab.com/israelangulo2021/ecooff",
+      deploy: "https://ecooff.netlify.app/",
+      technologies: "HTML, CSS, JS, React JS",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quidem assumenda facilis id nihil iure error earum non harum vel!`,
+    },
+
+    {
+      imgs: ["/nutri.PNG"],
+      name: "Nutripharco",
+      backend: "No disponible",
+      frontend: "https://gitlab.com/israelangulo2021/nutripharco",
+      deploy: "https://nutripharco.netlify.app/",
+      technologies: "HTML, CSS, JS, React JS",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quidem assumenda facilis id nihil iure error earum non harum vel!`,
+    },
   ];
   return (
     <Container id='portfolio'>

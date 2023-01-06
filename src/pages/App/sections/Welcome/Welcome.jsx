@@ -16,9 +16,9 @@ const Welcome = () => {
     <Container id='welcome'>
       <Presentation>
         <Hello>
-          Hello Iam <span>Israel</span>
+          Hola yo soy <span>Israel</span>
         </Hello>
-        <Role>Frontend developer</Role>
+        <Role>Desarrollador Web</Role>
         <Social>
           <a href='https://github.com/isra2021' target='_blank'>
             <Github />
@@ -35,7 +35,7 @@ const Welcome = () => {
           </a>
         </Social>
         <Download href='/angulo_israel_cv.pdf' download>
-          Download CV
+          Descargar CV
         </Download>
       </Presentation>
       <Image src='/eliot 1.png' alt='eliot' />
