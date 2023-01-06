@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const Container = styled.section`
   padding: 20px;
   width: min(1200px, 100%);
-  min-height: 60vh;
+  min-height: calc(80vh - 70px);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 50px;
   border: ${({theme}) => `10px solid ${theme.colors.secondary}`};
   border-left: none;
+  overflow: hidden;
+  z-index: 100;
 `;
 
 export const About = styled.div`

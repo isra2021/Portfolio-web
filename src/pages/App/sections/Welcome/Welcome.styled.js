@@ -8,7 +8,7 @@ import {
 export const Container = styled.section`
   padding: 20px;
   width: min(1200px, 100%);
-  min-height: calc(80vh - 70px);
+  min-height: calc(100vh - 70px);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
