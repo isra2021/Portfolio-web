@@ -3,7 +3,7 @@ import {Container, About, Section, Text, Image} from "./AboutMe.styled";
 const AboutMe = () => {
   return (
     <Container id='about'>
-      <Image src='/eliot2webp 2.png' alt='eliot' />
+      <Image src='/isra2.png' alt='eliot' />
       <About>
         <Section>SOBRE MI.</Section>
         <Text>

@@ -38,7 +38,7 @@ const Welcome = () => {
           Descargar CV
         </Download>
       </Presentation>
-      <Image src='/eliot 1.png' alt='eliot' />
+      <Image src='/isra.png' alt='eliot' />
     </Container>
   );
 };

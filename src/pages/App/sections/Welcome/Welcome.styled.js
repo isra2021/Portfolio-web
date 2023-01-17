@@ -86,6 +86,7 @@ export const Download = styled.a`
 
 export const Image = styled.img`
   min-width: 200px;
+  max-width: 500px;
 
   @media screen and (max-width: 800px) {
     position: absolute;
