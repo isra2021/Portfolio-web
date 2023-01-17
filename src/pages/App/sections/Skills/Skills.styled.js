@@ -20,6 +20,7 @@ export const Section = styled.h2`
 export const Skills = styled.div`
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 `;
 
 export const HardSkills = styled.div`

@@ -14,6 +14,7 @@ export const Container = styled.section`
   justify-content: space-evenly;
   align-items: center;
   color: ${({theme}) => theme.colors.secondary};
+  flex-wrap: wrap;
 `;
 
 export const Presentation = styled.div`
@@ -22,8 +23,6 @@ export const Presentation = styled.div`
   position: relative;
   z-index: 3;
   @media screen and (max-width: 800px) {
-    margin-right: auto;
-    margin-left: 10px;
   }
 `;
 
@@ -86,11 +85,5 @@ export const Download = styled.a`
 
 export const Image = styled.img`
   min-width: 200px;
-  max-width: 500px;
-
-  @media screen and (max-width: 800px) {
-    position: absolute;
-    z-index: 2;
-    right: 0;
-  }
+  max-width: 400px;
 `;

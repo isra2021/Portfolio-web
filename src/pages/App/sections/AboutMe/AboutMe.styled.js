@@ -12,6 +12,8 @@ export const Container = styled.section`
   border-left: none;
   overflow: hidden;
   z-index: 100;
+  background-color: #000;
+  flex-wrap: wrap-reverse;
 `;
 
 export const About = styled.div`
@@ -22,9 +24,6 @@ export const About = styled.div`
   position: relative;
   margin-bottom: auto;
   z-index: 3;
-  @media screen and (max-width: 800px) {
-    margin-left: auto;
-  }
 `;
 
 export const Section = styled.h2`
@@ -41,12 +40,4 @@ export const Text = styled.p`
 
 export const Image = styled.img`
   min-width: 200px;
-  max-width: 600px;
-
-  @media screen and (max-width: 800px) {
-    position: absolute;
-    z-index: 2;
-    left: 0;
-    width: 300px;
-  }
 `;
