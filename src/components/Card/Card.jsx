@@ -10,7 +10,7 @@ const Card = ({
   description,
 }) => {
   return (
-    <Container>
+    <Container key={name}>
       <Info>
         <Text>
           <span>Nombre del proyecto: </span> {name}
@@ -46,8 +46,8 @@ const Card = ({
         </Text>
       </Info>
       <Galery>
-        {imgs?.map((i) => (
-          <Img src={i} alt='project' loading='lazy' />
+        {imgs?.map((i, index) => (
+          <Img key={index} src={i} alt='project' loading='lazy' />
         ))}
       </Galery>
     </Container>

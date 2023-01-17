@@ -5,9 +5,9 @@ const AboutMe = () => {
     <Container id='about'>
       <Image src='/isra2.png' alt='eliot' />
       <About>
-        <Section>SOBRE MI.</Section>
+        <Section>ABOUT ME.</Section>
         <Text>
-          Mi nombre es Israel, tengo 24 anios, soy Argentino, estudio la carrera
+          Mi nombre es Israel, tengo 24 años, soy Argentino, estudio la carrera
           Ciencias de la Computacion en UNC-FAMAF, donde aprendi las bases de la
           programacion. Soy un apasionado por la investigacion, busco
           constantemente estar al dia en el mundo de la Tecnologia. Lo que mas

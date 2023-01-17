@@ -51,7 +51,7 @@ const Portfolio = () => {
       frontend: "https://gitlab.com/israelangulo2021/vaya-app.git",
       deploy: "https://vayaapp.netlify.app",
       technologies: "HTML, CSS, JS, React JS",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quidem assumenda facilis id nihil iure error earum non harum vel!`,
+      description: `Landing page que realice trabajando para la empresa it-techgroup`,
     },
 
     {
@@ -67,7 +67,7 @@ const Portfolio = () => {
       frontend: "https://gitlab.com/israelangulo2021/ecooff",
       deploy: "https://ecooff.netlify.app/",
       technologies: "HTML, CSS, JS, React JS",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quidem assumenda facilis id nihil iure error earum non harum vel!`,
+      description: `Landing page que realice trabajando para la empresa it-techgroup`,
     },
 
     {
@@ -77,27 +77,29 @@ const Portfolio = () => {
       frontend: "https://gitlab.com/israelangulo2021/nutripharco",
       deploy: "https://nutripharco.netlify.app/",
       technologies: "HTML, CSS, JS, React JS",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quidem assumenda facilis id nihil iure error earum non harum vel!`,
+      description: `Landing page que realice trabajando para la empresa it-techgroup`,
     },
   ];
   return (
     <Container id='portfolio'>
       <Section>PORTFOLIO.</Section>
-      {projects.map((p, index) => (
-        <>
-          <Card
-            imgs={p.imgs}
-            key={index}
-            name={p.name}
-            backend={p.backend}
-            frontend={p.frontend}
-            deploy={p.deploy}
-            technologies={p.technologies}
-            description={p.description}
-          />
-          {projects.length - 1 !== index && <Separator />}
-        </>
-      ))}
+      <div>
+        {projects.map((p, index) => (
+          <>
+            <Card
+              key={index}
+              imgs={p.imgs}
+              name={p.name}
+              backend={p.backend}
+              frontend={p.frontend}
+              deploy={p.deploy}
+              technologies={p.technologies}
+              description={p.description}
+            />
+            {projects.length - 1 !== index && <Separator />}
+          </>
+        ))}
+      </div>
     </Container>
   );
 };

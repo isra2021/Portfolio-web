@@ -5,7 +5,6 @@ export const Container = styled.section`
   width: min(1200px, 100%);
   min-height: 60vh;
   display: flex;
-  gap: 50px;
   flex-direction: column;
   border: ${({theme}) => `10px solid ${theme.colors.secondary}`};
   border-left: none;

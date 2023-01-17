@@ -35,8 +35,8 @@ const Skills = () => {
         <HardSkills>
           <HardSkillsName>HARD SKILLS:</HardSkillsName>
           <ListHardSkills>
-            {skills.map((skill) => (
-              <Row>
+            {skills.map((skill, index) => (
+              <Row key={index}>
                 <span>{skill}</span>
               </Row>
             ))}
@@ -45,8 +45,8 @@ const Skills = () => {
         <SoftSkills>
           <SoftSkillsName>SOFT SKILLS:</SoftSkillsName>
           <ListSoftSkills>
-            {softSkills.map((skill) => (
-              <Row>
+            {softSkills.map((skill, index) => (
+              <Row key={index}>
                 <span>{skill}</span>
               </Row>
             ))}
