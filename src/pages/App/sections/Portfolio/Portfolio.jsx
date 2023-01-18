@@ -71,7 +71,17 @@ const Portfolio = () => {
     },
 
     {
-      imgs: ["/nutri.PNG"],
+      imgs: [
+        "/nutri.PNG",
+        "/nutri3.PNG",
+        "/nutri4.PNG",
+        "/nutri5.PNG",
+        "/nutri6.PNG",
+        "/nutri7.PNG",
+        "/nutri8.PNG",
+        "/nutri9.PNG",
+        "/nutri10.PNG",
+      ],
       name: "Nutripharco",
       backend: "No disponible",
       frontend: "https://gitlab.com/israelangulo2021/nutripharco",
