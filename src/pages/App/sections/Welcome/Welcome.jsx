@@ -13,32 +13,28 @@ import {
 
 const Welcome = () => {
   return (
-    <Container id='welcome'>
+    <Container id="welcome">
       <Presentation>
         <Hello>
-          Hi, I am <span>Israel</span>
+          Hola, soy <span>Israel</span>
         </Hello>
-        <Role>Web Developer</Role>
+        <Role>Desarrollador web</Role>
         <Social>
-          <a href='https://github.com/isra2021' target='_blank'>
+          <a href="https://github.com/isra2021" target="_blank">
             <Github />
           </a>
-          <a
-            href='https://api.whatsapp.com/send?phone=543516430025'
-            target='_blank'>
+          <a href="https://api.whatsapp.com/send?phone=543516430025" target="_blank">
             <Whatsapp />
           </a>
-          <a
-            href='https://www.linkedin.com/in/israel-adrian-angulo/'
-            target='_blank'>
+          <a href="https://www.linkedin.com/in/israel-adrian-angulo/" target="_blank">
             <Linkedin />
           </a>
         </Social>
-        <Download href='/israel-angulo-cv.pdf' download>
+        <Download href="/CV.pdf" download>
           Descargar CV
         </Download>
       </Presentation>
-      <Image src='/isra.png' alt='eliot' />
+      {/*   <Image src='/isra.png' alt='eliot' /> */}
     </Container>
   );
 };

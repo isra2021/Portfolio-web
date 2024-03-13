@@ -1,9 +1,5 @@
 import styled from "styled-components";
-import {
-  Github as G,
-  Whatsapp as W,
-  Linkedin as L,
-} from "@styled-icons/boxicons-logos";
+import { Github as G, Whatsapp as W, Linkedin as L } from "@styled-icons/boxicons-logos";
 
 export const Container = styled.section`
   padding: 20px;
@@ -13,7 +9,7 @@ export const Container = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: ${({theme}) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.secondary};
   flex-wrap: wrap;
 `;
 
@@ -22,21 +18,22 @@ export const Presentation = styled.div`
   flex-direction: column;
   position: relative;
   z-index: 3;
+
   @media screen and (max-width: 800px) {
   }
 `;
 
-export const Hello = styled.h1`
-  font-size: ${({theme}) => theme.fontSize["40"]};
+export const Hello = styled.p`
+  font-size: ${({ theme }) => theme.fontSize["50"]};
   font-weight: 700;
 
   & span {
-    color: ${({theme}) => theme.colors.text};
+    color: ${({ theme }) => theme.colors.text};
   }
 `;
 
 export const Role = styled.p`
-  font-size: ${({theme}) => theme.fontSize["20"]};
+  font-size: ${({ theme }) => theme.fontSize["40"]};
   font-weight: 500;
 `;
 
@@ -46,7 +43,7 @@ export const Social = styled.div`
   margin: 24px 0;
 
   & a {
-    color: ${({theme}) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.secondary};
   }
 `;
 
@@ -69,17 +66,17 @@ export const Linkedin = styled(L)`
 `;
 
 export const Download = styled.a`
-  width: 172px;
-  height: 48px;
+  max-width: 350px;
+  height: 70px;
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${({theme}) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.secondary};
   border-width: 1px;
   border-style: solid;
-  border-color: ${({theme}) => theme.colors.secondary};
-
+  border-color: ${({ theme }) => theme.colors.text};
+  font-size: ${({ theme }) => theme.fontSize["40"]};
   cursor: pointer;
 `;
 

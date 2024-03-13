@@ -13,10 +13,11 @@ export const theme = {
     24: "24px",
     32: "32px",
     40: "40px",
+    50: "100px",
   },
   colors: {
-    primary: "#000",
+    primary: "#0a0a0a",
     secondary: "#42C920",
-    text: "#fff",
+    text: "#F0F0F0",
   },
 };

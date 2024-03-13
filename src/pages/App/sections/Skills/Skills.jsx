@@ -18,6 +18,7 @@ const Skills = () => {
     "JavaScript",
     "TypeScript",
     "React JS",
+    "React Native",
     "Jest",
     "React Testing Library",
     "Python",
@@ -26,14 +27,14 @@ const Skills = () => {
     "Mongo DB",
     "Github",
   ];
-  const softSkills = ["Comuniacion", "Trabajo en equipo.", "Organizado"];
+  const softSkills = ["Comuniacion", "Trabajo en equipo", "Organizado"];
 
   return (
-    <Container id='skills'>
-      <Section>SKILLS.</Section>
+    <Container id="skills">
+      <Section>HABILIDADES.</Section>
       <SkillsContainer>
         <HardSkills>
-          <HardSkillsName>HARD SKILLS:</HardSkillsName>
+          <HardSkillsName>DURAS:</HardSkillsName>
           <ListHardSkills>
             {skills.map((skill, index) => (
               <Row key={index}>
@@ -43,7 +44,7 @@ const Skills = () => {
           </ListHardSkills>
         </HardSkills>
         <SoftSkills>
-          <SoftSkillsName>SOFT SKILLS:</SoftSkillsName>
+          <SoftSkillsName>BLANDAS:</SoftSkillsName>
           <ListSoftSkills>
             {softSkills.map((skill, index) => (
               <Row key={index}>

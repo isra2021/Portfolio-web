@@ -30,20 +30,21 @@ export const Info = styled.div`
   gap: 5px;
   flex-direction: column;
   justify-content: center;
+  gap: 10px;
 `;
 
 export const Text = styled.p`
-  color: ${({theme}) => theme.colors.text};
-  font-size: ${({theme}) => theme.fontSize["14"]};
+  color: ${({ theme }) => theme.colors.text};
+  font-size: ${({ theme }) => theme.fontSize["14"]};
   font-weight: 400;
 
   & span {
-    font-size: ${({theme}) => theme.fontSize["16"]};
+    font-size: ${({ theme }) => theme.fontSize["16"]};
     font-weight: 500;
   }
 
   & a {
-    color: ${({theme}) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.secondary};
   }
 `;
 
@@ -61,11 +62,11 @@ export const Galery = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: ${({theme}) => theme.colors.secondary};
-    background: ${({theme}) => theme.colors.text};
+    background: ${({ theme }) => theme.colors.secondary};
+    background: ${({ theme }) => theme.colors.text};
   }
 
   &::-webkit-scrollbar-track {
-    background: ${({theme}) => theme.colors.secondary};
+    background: ${({ theme }) => theme.colors.secondary};
   }
 `;
