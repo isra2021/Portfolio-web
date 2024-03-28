@@ -22,7 +22,7 @@ const Skills = () => {
     "Jest",
     "React Testing Library",
     "Python",
-    "Django Rest Framework",
+    "Fast API",
     "MySQL",
     "Mongo DB",
     "Github",

@@ -18,7 +18,7 @@ const Welcome = () => {
         <Hello>
           Hola, soy <span>Israel</span>
         </Hello>
-        <Role>Desarrollador web</Role>
+        <Role>Desarrollador Full Stack</Role>
         <Social>
           <a href="https://github.com/isra2021" target="_blank">
             <Github />
@@ -34,7 +34,6 @@ const Welcome = () => {
           Descargar CV
         </Download>
       </Presentation>
-      {/*   <Image src='/isra.png' alt='eliot' /> */}
     </Container>
   );
 };
