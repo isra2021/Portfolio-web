@@ -1,4 +1,4 @@
-import { Container, Section, Separator } from "./Portfolio.styled";
+import {Container, Section, Separator} from "./Portfolio.styled";
 import Card from "../../../../components/Card/Card";
 
 const Portfolio = () => {
@@ -26,7 +26,7 @@ const Portfolio = () => {
       backend: "https://github.com/whileTrue-FaMAFyC/backend",
       frontend: "https://github.com/whileTrue-FaMAFyC/frontend",
       deploy: "No se encuentra disponible",
-      technologies: "HTML, CSS, JS, React JS, Jest, React Testing Library, Python, FastAPI, GitHub, Jira",
+      technologies: "HTML, CSS, JS, React JS, Jest, React Testing Library, Python, FastAPI, WebSockets, GitHub, Jira",
       description: `
       PyRobots es un proyecto desarrollado en la materia Ingeniería del Software, utilizando la metodología ágil Scrum. El juego simula peleas entre robots, donde los jugadores pueden enfrentar sus propias creaciones contra las de otros jugadores.
         `,
@@ -50,9 +50,20 @@ const Portfolio = () => {
       backend: "https://github.com/Failtures/misterio-back",
       frontend: "https://github.com/Failtures/misterio-front  ",
       deploy: "No se encuentra disponible",
-      technologies: "HTML, CSS, JS, React JS, Python, FastAPI, GitHub, Jira",
-      description: `El proyecto consiste en el desarrollo de un juego de misterio realizado como parte de la materia Ingeniería del Software en la facultad. Se ut  ilizzaron metodologías ágiles durante su creación. `,
+      technologies: "HTML, CSS, JS, React JS, Python, FastAPI, GitHub, WebSockets, Jira",
+      description: `El proyecto consiste en el desarrollo de un juego de misterio realizado como parte de la materia Ingeniería del Software en la facultad. Se utilizzaron metodologías ágiles durante su creación. `,
     },
+
+    {
+      imgs: ["/uno1.PNG", "/uno2.PNG", "/uno3.PNG", "/uno4.PNG", "/uno5.PNG", "/uno6.PNG", "/uno7.PNG", "/uno8.PNG"],
+      name: "Uno",
+      backend: "https://github.com/TheThingGame/Backend/tree/dev",
+      frontend: "https://github.com/TheThingGame/Frontend",
+      deploy: "No se encuentra disponible",
+      technologies: "HTML, CSS, Tailwind, JS, React JS, Python, FastAPI, WebSockets, GitHub",
+      description: `Proyecto realizado con mis propias manos para demostrar mis conocimientos fullstack`,
+    },
+
     {
       imgs: ["/vaya.PNG", "/vaya2.PNG", "/vaya3.PNG"],
       name: "Vaya App",
@@ -63,6 +74,7 @@ const Portfolio = () => {
       description: `Landing page que realice trabajando para la empresa it-techgroup`,
     },
 
+    ,
     {
       imgs: ["/ecoff.PNG", "/ecoff2.PNG", "/ecoff3.PNG", "/ecoff4.PNG", "/ecoff5.PNG"],
       name: "Ecoff",
@@ -94,7 +106,7 @@ const Portfolio = () => {
     },
   ];
   return (
-    <Container id="portfolio">
+    <Container id='portfolio'>
       <Section>PORTAFOLIO.</Section>
       <div>
         {projects.map((p, index) => (

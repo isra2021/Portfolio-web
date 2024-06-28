@@ -15,22 +15,26 @@ const Skills = () => {
   const skills = [
     "HTML",
     "CSS",
+    "Tailwind",
     "JavaScript",
     "TypeScript",
     "React JS",
     "React Native",
+    "Next 14",
     "Jest",
     "React Testing Library",
     "Python",
     "Fast API",
     "MySQL",
     "Mongo DB",
+    "WebSockets",
     "Github",
+    "Jira",
   ];
   const softSkills = ["Comuniacion", "Trabajo en equipo", "Organizado"];
 
   return (
-    <Container id="skills">
+    <Container id='skills'>
       <Section>HABILIDADES.</Section>
       <SkillsContainer>
         <HardSkills>

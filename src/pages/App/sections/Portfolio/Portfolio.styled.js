@@ -6,16 +6,12 @@ export const Container = styled.section`
   min-height: 60vh;
   display: flex;
   flex-direction: column;
-  border: ${({theme}) => `10px solid ${theme.colors.secondary}`};
-  border-left: none;
-  border-top: none;
 `;
 
 export const Section = styled.h2`
   color: ${({theme}) => theme.colors.secondary};
   font-size: ${({theme}) => theme.fontSize["32"]};
   font-weight: 700;
-  margin-bottom: 10px;
 `;
 export const Separator = styled.div`
   position: relative;

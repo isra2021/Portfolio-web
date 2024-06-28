@@ -15,7 +15,7 @@ export const Container = styled.div`
       max-height: 100%;
     }
   }
-  padding: 50px 0;
+  padding: 20px 0;
 `;
 
 export const Img = styled.img`
@@ -34,17 +34,17 @@ export const Info = styled.div`
 `;
 
 export const Text = styled.p`
-  color: ${({ theme }) => theme.colors.text};
-  font-size: ${({ theme }) => theme.fontSize["14"]};
+  color: ${({theme}) => theme.colors.text};
+  font-size: ${({theme}) => theme.fontSize["14"]};
   font-weight: 400;
 
   & span {
-    font-size: ${({ theme }) => theme.fontSize["16"]};
+    font-size: ${({theme}) => theme.fontSize["16"]};
     font-weight: 500;
   }
 
   & a {
-    color: ${({ theme }) => theme.colors.secondary};
+    color: ${({theme}) => theme.colors.secondary};
   }
 `;
 
@@ -62,11 +62,11 @@ export const Galery = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background: ${({ theme }) => theme.colors.secondary};
-    background: ${({ theme }) => theme.colors.text};
+    background: ${({theme}) => theme.colors.secondary};
+    background: ${({theme}) => theme.colors.text};
   }
 
   &::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme.colors.secondary};
+    background: ${({theme}) => theme.colors.secondary};
   }
 `;

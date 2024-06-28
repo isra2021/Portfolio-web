@@ -1,21 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   padding: 20px;
   width: min(1200px, 100%);
   min-height: 50vh;
-  color: ${({ theme }) => theme.colors.text};
-  border: ${({ theme }) => `10px solid ${theme.colors.secondary}`};
-  border-top: none;
-  border-right: none;
+  color: ${({theme}) => theme.colors.text};
 `;
 
 export const Section = styled.h2`
-  color: ${({ theme }) => theme.colors.secondary};
-  font-size: ${({ theme }) => theme.fontSize["32"]};
+  color: ${({theme}) => theme.colors.secondary};
+  font-size: ${({theme}) => theme.fontSize["32"]};
   font-weight: 700;
-  margin-bottom: 10px;
-  gap: 10px;
 `;
 
 export const Skills = styled.div`
@@ -31,7 +29,7 @@ export const HardSkills = styled.div`
 `;
 
 export const HardSkillsName = styled.h3`
-  font-size: ${({ theme }) => theme.fontSize["24"]};
+  font-size: ${({theme}) => theme.fontSize["24"]};
   font-weight: 600;
 `;
 
@@ -41,12 +39,12 @@ export const ListHardSkills = styled.ul`
 
 export const Row = styled.li`
   list-style-type: square;
-  color: ${({ theme }) => theme.colors.secondary};
-  font-size: ${({ theme }) => theme.fontSize["16"]};
+  color: ${({theme}) => theme.colors.secondary};
+  font-size: ${({theme}) => theme.fontSize["16"]};
   margin-bottom: 5px;
 
   & span {
-    color: ${({ theme }) => theme.colors.text};
+    color: ${({theme}) => theme.colors.text};
   }
 `;
 

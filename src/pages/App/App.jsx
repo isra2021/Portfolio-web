@@ -10,10 +10,10 @@ const App = () => {
     <Container>
       <Navbar />
       <Welcome />
-      <AboutMe />
-      <Skills />
-
-      <Portfolio />
+      <main style={{display: "flex", flexDirection: "column", alignItems: "center", gap: "50px"}}>
+        <Skills />
+        <Portfolio />
+      </main>
     </Container>
   );
 };
