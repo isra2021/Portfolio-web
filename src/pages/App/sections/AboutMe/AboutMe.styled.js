@@ -7,7 +7,7 @@ export const Container = styled.section`
   justify-content: space-evenly;
   align-items: center;
   gap: 50px;
-  border: ${({ theme }) => `10px solid ${theme.colors.secondary}`};
+  border: ${({theme}) => `10px solid ${theme.colors.secondary}`};
   border-left: none;
   overflow: hidden;
   z-index: 100;
@@ -26,14 +26,14 @@ export const About = styled.div`
 `;
 
 export const Section = styled.h2`
-  color: ${({ theme }) => theme.colors.secondary};
-  font-size: ${({ theme }) => theme.fontSize["32"]};
+  color: ${({theme}) => theme.colors.secondary};
+  font-size: ${({theme}) => theme.fontSize["32"]};
   font-weight: 700;
 `;
 
 export const Text = styled.p`
-  color: ${({ theme }) => theme.colors.text};
-  font-size: ${({ theme }) => theme.fontSize["16"]};
+  color: ${({theme}) => theme.colors.text};
+  font-size: ${({theme}) => theme.fontSize["16"]};
   font-weight: 400;
 `;
 

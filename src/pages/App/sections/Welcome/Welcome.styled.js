@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Github as G, Whatsapp as W, Linkedin as L } from "@styled-icons/boxicons-logos";
+import {Github as G, Whatsapp as W, Linkedin as L} from "@styled-icons/boxicons-logos";
 
 export const Container = styled.section`
   padding: 20px;
@@ -9,8 +9,9 @@ export const Container = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({theme}) => theme.colors.secondary};
   flex-wrap: wrap;
+  margin: auto;
 `;
 
 export const Presentation = styled.div`
@@ -24,16 +25,16 @@ export const Presentation = styled.div`
 `;
 
 export const Hello = styled.p`
-  font-size: ${({ theme }) => theme.fontSize["50"]};
+  font-size: ${({theme}) => theme.fontSize["50"]};
   font-weight: 700;
 
   & span {
-    color: ${({ theme }) => theme.colors.text};
+    color: ${({theme}) => theme.colors.text};
   }
 `;
 
 export const Role = styled.p`
-  font-size: ${({ theme }) => theme.fontSize["40"]};
+  font-size: ${({theme}) => theme.fontSize["40"]};
   font-weight: 500;
 `;
 
@@ -43,7 +44,7 @@ export const Social = styled.div`
   margin: 24px 0;
 
   & a {
-    color: ${({ theme }) => theme.colors.secondary};
+    color: ${({theme}) => theme.colors.secondary};
   }
 `;
 
@@ -72,11 +73,11 @@ export const Download = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({theme}) => theme.colors.secondary};
   border-width: 1px;
   border-style: solid;
-  border-color: ${({ theme }) => theme.colors.text};
-  font-size: ${({ theme }) => theme.fontSize["40"]};
+  border-color: ${({theme}) => theme.colors.text};
+  font-size: ${({theme}) => theme.fontSize["40"]};
   cursor: pointer;
 `;
 
