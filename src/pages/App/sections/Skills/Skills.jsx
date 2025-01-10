@@ -13,24 +13,33 @@ import {
 
 const Skills = () => {
   const skills = [
+    "Metodologías Ágiles: SCRUM",
     "HTML",
     "CSS",
     "Tailwind",
     "JavaScript",
+    "C",
     "TypeScript",
     "React JS",
-    "React Native",
+    "Angular",
     "Next 14",
+    "React Native",
+    "Redux",
     "Jest",
     "React Testing Library",
     "Python",
-    "Fast API",
+    "FastAPI",
+    "Java",
+    "Spring Boot",
+    "C#",
+    ".NET",
     "MySQL",
-    "Mongo DB",
+    "MongoDB",
     "WebSockets",
-    "Github",
-    "Jira",
+    "GitHub",
+    "Jira Software",
   ];
+
   const softSkills = ["Comuniacion", "Trabajo en equipo", "Organizado"];
 
   return (
